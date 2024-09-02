@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 62vh;
+    background-color: beige;
+    font-family: Impact , serif;
+}
+.calculadora{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 rgb(0, 0, 0, 1);
+    width: 240px;
+}
+
+#display{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: Impact , serif;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7.5px;
+}
+
+button{
+    background-color: mediumturquoise;
+    height: 80px;
+    width: 100%;
+    font-size: 40px;
+    border: aqua;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 4px 4px 0 darkcyan;
+    font-family:Impact , serif;
+    color: aliceblue;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
+}
+
+button:hover{
+    background-color: #1111;
+}
+
+.limpar{
+    width: 100%;
+    background-color: coral;
+    color: black;
+    margin-top: 7.5px;
+    box-shadow: 4px 4px 0 chocolate;
+    color: aliceblue;
+}
+
+.limpar:hover{
+    background-color: darkorange;
+}
