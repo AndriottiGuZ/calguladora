@@ -39,7 +39,7 @@ button{
     height: 80px;
     width: 100%;
     font-size: 40px;
-    border: aqua;
+    border: black;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.2s;
