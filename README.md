@@ -1,1 +1,1 @@
-Apenas expêriencias com htlm, ccd e javascript
+Apenas expêriencias com html, css e javascript
